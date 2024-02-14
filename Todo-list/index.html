@@ -3,9 +3,31 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=`, initial-scale=1.0">
-    <title>Document</title>
+    <title>todo-list</title>
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+    crossorigin="anonymous"
+    referrerpolicy="no-referrer"
+  />
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
+<div class="container">
+    <div class="header">
+        <h1>TODO</h1>
+        <div><i id="refresh" class="fa-solid fa-arrows-rotate"></i></div>
+      </div>
+      <div class="input-section">
+        <input type="text" placeholder="Create a new Todo" id="inputs" />
+        <div>
+          <i id="create" class="fas fa-rotate-90 enter-btn">&#xf3be;</i>
+        </div>
+      </div>
+      <ul class="todo-list"></ul>
+</div>
+   
     
 </body>
 </html>
