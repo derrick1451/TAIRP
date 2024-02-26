@@ -1,10 +1,9 @@
 # 📗 Table of Contents
 - [📗 Table of Contents](#-table-of-contents)
-- [📖 TO DO LIST ](#-to-do-list-)
+- [📖 Image Gallery with Filtering ](#-image-gallery-with-filtering-)
   - [🛠 Built With ](#-built-with-)
     - [Tech Stack ](#tech-stack-)
     - [Key Features ](#key-features-)
-  - [Live Demo](#live-demo)
   - [💻 Getting Started ](#-getting-started-)
     - [Prerequisites](#prerequisites)
     - [Install](#install)
@@ -18,16 +17,16 @@
 
 
 
-# 📖 TO DO LIST <a name="about-project"></a>
+# 📖 Image Gallery with Filtering <a name="about-project"></a>
 
 
-**To do list** in this milestone we implemented the third part of the to do list and  we implemented the interactive section of deleting all the completed todos and updating the window when you reload
+**Image Gallery** An image gallery with filter options such as categories or tags. Users can filter the images based on specific criteria, such as nature, animals, or cityscapes. Use HTML to structure the gallery, CSS to style the layout and effects, and JavaScript to handle the filtering functionality.
 ## 🛠 Built With <a name="built-with"></a>
 
 ### Tech Stack <a name="tech-stack"></a>
 
 <details>
-  <summary>HTML,CSS</summary>
+  <summary>React</summary>
   <summary>Javasript</summary>
   <summary>Linters</summary>
   <summary>Github</summary>
@@ -37,13 +36,7 @@
 
 ### Key Features <a name="key-features"></a>
 
-- **update to do list dynamically**
-- **delete a todo**
-- **local storage to save the list**
-- **add a delete allcompleted todos button**
-
-## Live Demo
-[live demo](coming soon)
+- **use react**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -58,7 +51,7 @@ In order to run this project you need:
 ### Install
 
 - cd [my-folder]
--git clone (git@github.com:derrick1451/TAIRP.git)
+-[git clone] (git@github.com:derrick1451/TAIRP.git)
 -cd [repo-name]
 -code .
 
@@ -72,7 +65,7 @@ In order to run this project you need:
 
 👤 **Okongo Derrick**
     
-- GitHub: [@derrick14](https://github.com/derrick14/51)
+- GitHub: [@derrick14](https://github.com/derrick1451)
 - Twitter: [@derrick14](https://twitter.com/DerrickHayle)
 - LinkedIn: [okongo derrick](https://www.linkedin.com/in/okongo-derrick)
 
@@ -81,8 +74,7 @@ In order to run this project you need:
 ## 🔭 Future Features <a name="future-features"></a>
 
 - **style elements with flex-box and grid**
-- **drop down function**
-- **use es6 modules**
+- **filter items in the cart**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -99,11 +91,11 @@ Feel free to check the [issues page](https://github.com/derrick1451/TAIRP/issues
 
 ## ⭐️ Show your support <a name="support"></a>
 
-If you like this project don't hesitate to give it a start. ⭐️
+If you like this project don't hesitate to give it a star. ⭐️
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
-I want to give special thanks to TECH A INTERN for the great opportunity given to me to realise my dreams.
+I want to give special thanks to Tech a intern for the great opportunity given to me to realise my dreams.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
