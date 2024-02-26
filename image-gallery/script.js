@@ -1,3 +1,4 @@
+
 const shoppingItems = [
     {
        image:'./images/cloth-1.jpg',
@@ -35,6 +36,20 @@ const shoppingItems = [
         type:'shoes',
      },
 ]
+const buttons = document.querySelectorAll('.btn')
+//filter shoes
+const shoes = shoppingItems.filter(item=>{
+    return item.type === 'shoes'
+})
+//filter phones
+const phones = shoppingItems.filter(item=>{
+    return item.type === 'phones'
+})
+//filter clothes
+const clothes = shoppingItems.filter(item=>{
+    return item.type === 'clothes'
+})
+
 
 function displayItems(item){
     const container = document.querySelector('.item-container')
@@ -56,13 +71,23 @@ function displayItems(item){
         div.appendChild(imageContainer)
         div.appendChild(heading)
         div.appendChild(paragraph)
-
         container.appendChild(div)
-
-
-
     });
 
 
 }
 displayItems(shoppingItems)
+buttons.forEach(button=>{
+    
+    button.addEventListener('click',(e)=>{
+        if(e.target.textContent === 'Show All'){
+            displayItems(shoppingItems)
+        }else if(e.target.textContent === 'Shoes'){
+            displayItems(shoes)
+        }else if(e.target.textContent === 'Phones'){
+            displayItems(phones)
+        }else if(e.target.textContent === 'Clothes'){
+            displayItems(clothes)
+        }
+    })
+})
